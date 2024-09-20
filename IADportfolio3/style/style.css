@@ -1,0 +1,58 @@
+.inputBox {  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.userInput {
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.inputBox > h2 {
+    margin-bottom: 25px;
+}
+
+.submitForm {
+    display: flex;
+}
+
+.submitInput > input[type=submit] {
+    background-color: #3260a8;
+    color: white;
+    border: none;
+    padding: 7px 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.tableHead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #3260a8;
+  color: white;
+}
+
+.project-row {
+    transition: 0.3s;
+}
+
+.project-row:hover {
+    background-color: #3260a8;
+    color: white;
+    cursor: pointer;
+}
+
+.myproject-row {
+    transition: 0.3s;
+}
+
+.myproject-row:hover {
+    background-color: #3260a8;
+    color: white;
+    cursor: pointer;
+}
